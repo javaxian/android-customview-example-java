@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:gravity="center"
+    tools:context=".presentation.activity.MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">s
+
+            <com.javaxian.cleanarchitecture.customviewexample.presentation.view.custom.CompassView
+                android:id="@+id/compass_view_1"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                app:backgroundColor="@color/white"
+                app:borderColor="@color/battleship"
+                app:borderWidth="2dp"
+                app:eastColor="@color/gold"
+                app:northColor="@color/gold"
+                app:southColor="@color/gold"
+                app:westColor="@color/gold" />
+
+            <com.javaxian.cleanarchitecture.customviewexample.presentation.view.custom.CompassView
+                android:id="@+id/compass_view_2"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                app:backgroundColor="@color/graphicBlue"
+                app:borderColor="@color/graphicPurple"
+                app:borderWidth="2dp"
+                app:eastColor="@color/graphicRed"
+                app:northColor="@color/graphicRed"
+                app:southColor="@color/graphicRed"
+                app:westColor="@color/graphicRed" />
+
+            <com.javaxian.cleanarchitecture.customviewexample.presentation.view.custom.CompassView
+                android:id="@+id/compass_view_3"
+                android:layout_width="300dp"
+                android:layout_height="300dp"
+                android:layout_gravity="end"
+                app:backgroundColor="@color/graphicTurquoise"
+                app:borderColor="@color/colorAccent"
+                app:borderWidth="0dp"
+                app:eastColor="@color/graphicYellow"
+                app:northColor="@color/redDark"
+                app:southColor="@color/green"
+                app:westColor="@color/strongFail" />
+
+            <com.javaxian.cleanarchitecture.customviewexample.presentation.view.custom.CompassView
+                android:id="@+id/compass_view_4"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                app:backgroundColor="@color/black"
+                app:borderColor="@color/pink"
+                app:borderWidth="1dp"
+                app:eastColor="@color/orange"
+                app:northColor="@color/colorPrimaryDark"
+                app:southColor="@color/orange"
+                app:westColor="@color/orange" />
+
+            <com.javaxian.cleanarchitecture.customviewexample.presentation.view.custom.CompassView
+                android:id="@+id/compass_view_5"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                app:backgroundColor="@color/strongFail"
+                app:borderColor="@color/orange"
+                app:borderWidth="4dp"
+                app:eastColor="@color/battleshipLight"
+                app:northColor="@color/graphicBlue"
+                app:southColor="@color/graphicBlue"
+                app:westColor="@color/battleshipLight" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

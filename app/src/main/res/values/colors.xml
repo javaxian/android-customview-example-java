@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="red">#FF0000</color>
+    <color name="redDark">#d90000</color>
+    <color name="yellow">#E8A327</color>
+    <color name="gold">#866400</color>
+    <color name="orange">#f96211</color>
+    <color name="green">#21ea02</color>
+    <color name="pink">#fb84fd</color>
+    <color name="transparent">#00000000</color>
+    <color name="slate">#4d6474</color>
+    <color name="slateTwo">#3e505d</color>
+    <color name="warm">#2B3842</color>
+    <color name="warmGray">#929292</color>
+    <color name="rex">#454545</color>
+    <color name="battleship">#677b88</color>
+    <color name="battleshipLight">#9b9b9b</color>
+    <color name="strongFail">#4e0006</color>
+    <color name="cheese">#edb343</color>
+    <color name="squash">#e9a115</color>
+
+    <color name="graphicGray">#414d55</color>
+    <color name="graphicGrayDark">#405465</color>
+    <color name="graphicGrayLight">#6c7e88</color>
+    <color name="graphicYellow">#E8A327</color>
+    <color name="graphicBlue">#24979B</color>
+    <color name="graphicRed">#AD2310</color>
+    <color name="graphicPurple">#74549A</color>
+    <color name="graphicTurquoise">#6d9deb</color>
+</resources>
